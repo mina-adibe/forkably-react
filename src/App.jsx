@@ -16,7 +16,6 @@ function App() {
   return (
     <div>
       <Header />
-
       <Recepes />
       <RecreateRecepe />
       <Solutions />

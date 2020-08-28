@@ -1,4 +1,5 @@
 import React from "react";
+import mainlogo from "../images/main-logo.png";
 
 function Header() {
   return (
@@ -8,7 +9,7 @@ function Header() {
           <nav>
             <div className="navigation-bar">
               <div className="navigation-bar__logo">
-                <img src="./images/main-logo.png" alt="logo" />
+                <img src={mainlogo} alt="logo" />
               </div>
               {/* <!-- <div className="navigation-bar__links">
                 <ul>
