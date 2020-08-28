@@ -1,4 +1,10 @@
 import React from "react";
+import instgram from "../images/instgram-icon.png";
+import twitter from "../images/twitter-icon.png";
+import facebook from "../images/fb-icon.png";
+import phone from "../images/phone.png";
+import line from "../images/line2.png";
+import mainlogo from "../images/main-logo.png";
 
 function Footer() {
   return (
@@ -9,7 +15,7 @@ function Footer() {
             <div className="footer-section__row1__col1">
               <h2>You have awesome recipe? Let the others know and try!</h2>
               <p>Join millions of self learning cooks on the globe</p>
-              <a href="#" className="footer-section__row1__col1__button">
+              <a href="/" className="footer-section__row1__col1__button">
                 Register Now!
               </a>
             </div>
@@ -30,52 +36,52 @@ function Footer() {
             <div className="footer-section__nav-bar">
               <ul>
                 <li>
-                  <a href="#">Find Recipe </a>
+                  <a href="/">Find Recipe </a>
                 </li>
                 <li>
-                  <a href="#">Share Recipe </a>
+                  <a href="/">Share Recipe </a>
                 </li>
                 <li>
-                  <a href="#"> Make Recipe</a>
+                  <a href="/"> Make Recipe</a>
                 </li>
                 <li>
-                  <a href="#">Recreate Recipe </a>
+                  <a href="/">Recreate Recipe </a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="/">About</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="/">Contact</a>
                 </li>
                 <li>
-                  <a href="#">Login</a>
+                  <a href="/">Login</a>
                 </li>
                 <li>
-                  <a href="#">register</a>
+                  <a href="/">register</a>
                 </li>
               </ul>
             </div>
             <div className="footer-section__icons">
               <ul>
                 <li>
-                  <img src="./images/instgram-icon.png" alt="" />
+                  <img src={instgram} alt="" />
                 </li>
                 <li>
-                  <img src="./images/twitter-icon.png" alt="" />
+                  <img src={twitter} alt="" />
                 </li>
                 <li>
-                  <img src="./images/fb-icon.png" alt="" />
+                  <img src={facebook} alt="" />
                 </li>
               </ul>
             </div>
           </div>
           <div className="footer-section__line">
-            <img src="./images/line2.png" alt="" />
+            <img src={line} alt="" />
           </div>
           <div className="footer-section__row4">
             <div className="footer-section__col1">
               <div className="footer-section__logo">
-                <img src="./images/main-logo.png" alt="" />
+                <img src={mainlogo} alt="" />
               </div>
               <div className="footer-section__copyright">
                 <p>Copyright © 2020-2029 Forkably.com. All Rights Reserved.</p>
@@ -91,7 +97,7 @@ function Footer() {
                 <p>Call our support</p>
               </div>
               <div className="footer-section__phone">
-                <img src="./images/phone.png" alt="" />
+                <img src={phone} alt="" />
               </div>
             </div>
           </div>
