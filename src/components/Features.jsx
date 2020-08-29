@@ -6,7 +6,6 @@ import chat from "../images/chat.png";
 function Features() {
   return (
     <div>
-      Features
       <section className="features">
         <div className="container">
           <div className="features__cards">

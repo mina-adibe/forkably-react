@@ -16,13 +16,13 @@ function App() {
   return (
     <div>
       <Header />
-      <Recepes />
-      <RecreateRecepe />
-      <Solutions />
-      <Testimonies />
-      <Trending />
       <Features />
       <Cards />
+      <Solutions />
+      <Recepes />
+      <RecreateRecepe />
+      <Trending />
+      <Testimonies />
       <Footer />
     </div>
   );
