@@ -21,10 +21,10 @@ function Solutions() {
       <div className="grid  grid-cols-2 grid-rows-3 gap-x-20 gap-y-12  grid-flow-row">
         <div className="grid-cols-1 ">
           <div className=" h-full  parent relative">
-            <div className="w-4/6 bg-blue-200 inline-block h-full"></div>
+            <div className="w-4/6 bg-blue-200 inline-block h-full rounded-lg"></div>
             <div className="w-2/6  inline-block h-full"></div>
-            <div className="bg-blue-700 absolute  w-10/12 top-0 my-6 ml-6">
-              <img className="w-full  " src={solutionImg1} alt="" />
+            <div className="bg-blue-700 absolute  w-10/12 top-0 my-6 ml-6 ">
+              <img className="w-full  rounded-lg" src={solutionImg1} alt="" />
             </div>
           </div>
         </div>
@@ -52,19 +52,19 @@ function Solutions() {
         <div className="grid-cols-4 ">
           <div className=" h-full  parent relative">
             <div className="w-2/6  inline-block h-full"></div>
-            <div className="w-4/6  bg-pink-200 inline-block h-full"></div>
+            <div className="w-4/6  bg-pink-200 inline-block h-full rounded-lg"></div>
             <div className="bg-blue-700 absolute  w-10/12 top-0 right-0 my-6 mr-6">
-              <img className="w-full  " src={solutionImg2} alt="" />
+              <img className="w-full  rounded-lg" src={solutionImg2} alt="" />
             </div>
           </div>
         </div>
 
         <div className="grid-cols-5 ">
           <div className=" h-full  parent relative">
-            <div className="w-4/6 bg-teal-200 inline-block h-full"></div>
+            <div className="w-4/6 bg-teal-200 inline-block h-full rounded-lg"></div>
             <div className="w-2/6  inline-block h-full"></div>
             <div className="bg-blue-700 absolute  w-10/12 top-0 my-6 ml-6">
-              <img className="w-full  " src={solutionImg3} alt="" />
+              <img className="w-full  rounded-lg" src={solutionImg3} alt="" />
             </div>
           </div>
         </div>

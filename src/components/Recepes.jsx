@@ -1,6 +1,7 @@
 import React from "react";
 import person from "../images/person.png";
 import ingredients from "../images/ingredients.png";
+import quote from "../images/quote.png";
 
 function Recepes() {
   return (
@@ -32,7 +33,7 @@ function Recepes() {
         {/* second section  */}
         <div>
           <div className=".w-3/6 ">
-            <img src={ingredients} alt="" className="w-auto mx-auto" />
+            <img src={ingredients} alt="" className="w-auto mx-auto  -mb-48 " />
           </div>
           <div className="Recepes__component"></div>
         </div>
@@ -40,17 +41,22 @@ function Recepes() {
         {/* third section  */}
 
         <div className="grid  grid-cols-2 grid-rows-1 w-8/12 mx-auto ">
-          <div className="grid-cols-1 ">
+          <div className="grid-cols-1 -mt-12">
             <img src={person} alt="" />
           </div>
-          <div className="grid-cols-2  ">
-            <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              dolor consequat nulla nunc, laoreet auctor ipsum viverra ac.
-              Nullam laoreet nulla maximus augue malesuada placerat.{" "}
-            </h3>
-            <p>Daenerys Targaryen </p>
-            <p>Seattle</p>
+          <div className="grid-cols-2 flex  ">
+            <div className=" flex flex-col my-auto">
+              <div className="mb-8">
+                <img src={quote} alt="" />
+              </div>
+              <h3 className="text-lg leading-6 italic text-gray-900 mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                dolor consequat nulla nunc, laoreet auctor ipsum viverra ac.
+                Nullam laoreet nulla maximus augue malesuada placerat.{" "}
+              </h3>
+              <p className="text-blue-700">Daenerys Targaryen </p>
+              <p>Seattle</p>
+            </div>
           </div>
         </div>
       </div>
