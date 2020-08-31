@@ -7,9 +7,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 // import Navigationbar from "./components/Navigationbar";
 import Recepes from "./components/Recepes";
-import RecreateRecepe from "./components/RecreateRecepe";
 import Solutions from "./components/Solutions";
-import Testimonies from "./components/Testimonies";
+
 import Trending from "./components/Trending";
 
 function App() {
@@ -20,9 +19,7 @@ function App() {
       <Cards />
       <Solutions />
       <Recepes />
-      <RecreateRecepe />
       <Trending />
-      <Testimonies />
       <Footer />
     </div>
   );
