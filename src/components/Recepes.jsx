@@ -20,9 +20,9 @@ function Recepes() {
           </div>
         </div>
         {/* second section  */}
-        <div className="object-none object-center ">
-          <div>
-            <img src={ingredients} alt="" className="w-auto " />
+        <div>
+          <div className=".w-3/6 ">
+            <img src={ingredients} alt="" className="w-auto mx-auto" />
           </div>
           <div className="Recepes__component"></div>
         </div>
