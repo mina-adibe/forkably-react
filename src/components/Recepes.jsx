@@ -22,10 +22,10 @@ function Recepes() {
         </div>
         <div className="w-4/5 mx-auto">
           <div className=" flex items-center w-full justify-center ">
-            <button class=" flex  w-auto  mx-4   bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
+            <button class=" flex  w-auto  mx-4   bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full ">
               Make recipe
             </button>
-            <button class=" flex  w-auto mx-4  bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button class=" flex  w-auto mx-4  bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full">
               Recreate recipe
             </button>
           </div>

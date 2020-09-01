@@ -984,3 +984,19 @@ a.site-logo {
   height: 13.875rem;
 
 }
+
+/* -------------------------- solution component -------------------- */
+.child__solution {
+  top: 30px;
+  left: 30px;
+
+  bottom: 51px;
+}
+
+
+.child__solution__col4 {
+  top: 30px;
+  left: 45px;
+
+  bottom: 51px;
+}

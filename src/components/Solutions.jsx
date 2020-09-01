@@ -18,16 +18,24 @@ function Solutions() {
 
       {/* w:380 h:250 */}
 
-      <div className="grid  grid-cols-2 grid-rows-3 gap-x-20 gap-y-12  grid-flow-row">
+      <div className="grid   grid-cols-1 lg:grid-cols-2  grid-rows-6 lg:grid-rows-3 gap-x-20 gap-y-12  grid-flow-row">
+        {/* ----------------- section col 1------------------------------------- */}
+
         <div className="grid-cols-1 ">
-          <div className=" h-full  parent relative">
+          <div className="parent__solution h-full   relative ">
             <div className="w-4/6 bg-blue-200 inline-block h-full rounded-lg"></div>
-            <div className="w-2/6  inline-block h-full"></div>
-            <div className="bg-blue-700 absolute  w-10/12 top-0 my-6 ml-6 ">
-              <img className="w-full  rounded-lg" src={solutionImg1} alt="" />
+            <div className="w-2/6   inline-block h-full"></div>
+            <div className="child__solution bg-blue-700 absolute  w-10/12 ">
+              <img
+                className="w-full h-full rounded-lg"
+                src={solutionImg1}
+                alt=""
+              />
             </div>
           </div>
         </div>
+        {/* ----------------- section col 2------------------------------------- */}
+
         <div className="grid-cols-2  py-16">
           <div>
             <img className="py-2" src={search} alt="" />
@@ -38,7 +46,9 @@ function Solutions() {
             restaurants and commercial kitchens.
           </p>
         </div>
-        <div className="grid-cols-3  py-16">
+        {/* ----------------- section col 3------------------------------------- */}
+
+        <div className="grid-cols-3  ">
           <div>
             <img className="py-2" src={share} alt="" />
           </div>
@@ -48,26 +58,37 @@ function Solutions() {
             restaurants and commercial kitchens.
           </p>
         </div>
+        {/* ----------------- section col 4------------------------------------- */}
 
         <div className="grid-cols-4 ">
-          <div className=" h-full  parent relative">
+          <div className=" h-full  parent__solution relative">
             <div className="w-2/6  inline-block h-full"></div>
             <div className="w-4/6  bg-pink-200 inline-block h-full rounded-lg"></div>
-            <div className="bg-blue-700 absolute  w-10/12 top-0 right-0 my-6 mr-6">
-              <img className="w-full  rounded-lg" src={solutionImg2} alt="" />
+            <div className="bg-blue-700 child__solution__col4  absolute  w-10/12 ">
+              <img
+                className="w-full h-full rounded-lg"
+                src={solutionImg2}
+                alt=""
+              />
             </div>
           </div>
         </div>
-
+        {/* ----------------- section col 5------------------------------------- */}
         <div className="grid-cols-5 ">
-          <div className=" h-full  parent relative">
-            <div className="w-4/6 bg-teal-200 inline-block h-full rounded-lg"></div>
-            <div className="w-2/6  inline-block h-full"></div>
-            <div className="bg-blue-700 absolute  w-10/12 top-0 my-6 ml-6">
-              <img className="w-full  rounded-lg" src={solutionImg3} alt="" />
+          <div className="parent__solution h-full   relative ">
+            <div className="w-4/6 bg-blue-200 inline-block h-full rounded-lg"></div>
+            <div className="w-2/6   inline-block h-full"></div>
+            <div className="child__solution bg-blue-700 absolute  w-10/12 ">
+              <img
+                className="w-full h-full rounded-lg"
+                src={solutionImg3}
+                alt=""
+              />
             </div>
           </div>
         </div>
+        {/* ----------------- section col 1------------------------------------- */}
+
         <div className="grid-cols-6 py-16">
           <div>
             <img className="py-2" src={pen} alt="" />
