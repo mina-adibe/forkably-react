@@ -10,10 +10,10 @@ function Recepes() {
         {/* first section  */}
         <div className="max-w-8/12 mx-auto ">
           <div className="text-center w-1/2 mx-auto my-20 ">
-            <h1 className="mb-10 text-3xl text-gray-900 text-center  font-semibold">
+            <h1 className="mb-10 text-3xl text-gray-900 text-center  font-semibold section__font__family">
               Figure out what is in your food!
             </h1>
-            <p className="text-lg leading-7">
+            <p className="text-lg leading-7 section__font__family">
               Have you ever looked at a commercial food product and wondered how
               to make it? Not a problem. Use this professional technique to
               recreate a recipe from any nutrition label.
@@ -50,13 +50,15 @@ function Recepes() {
               <div className="m-8">
                 <img src={quote} alt="" />
               </div>
-              <h3 className="text-lg leading-6 italic text-gray-900 mb-4">
+              <h3 className="text-lg leading-6 italic text-gray-900 mb-4 section__font__family">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 dolor consequat nulla nunc, laoreet auctor ipsum viverra ac.
-                Nullam laoreet nulla maximus augue malesuada placerat.{" "}
+                Nullam laoreet nulla maximus augue malesuada placerat.
               </h3>
-              <p className="text-blue-700">Daenerys Targaryen </p>
-              <p>Seattle</p>
+              <p className="text-blue-700 section__font__family">
+                Daenerys Targaryen
+              </p>
+              <p className="section__font__family">Seattle</p>
             </div>
           </div>
         </div>

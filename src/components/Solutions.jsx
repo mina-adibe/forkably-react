@@ -11,7 +11,7 @@ function Solutions() {
     <section className="w-2/3 mx-auto">
       <div>
         {/* it should be font-size: 27px;  color: #242424 */}
-        <h3 className="text-3xl text-gray-900 text-center mb-12 font-semibold">
+        <h3 className="text-3xl text-gray-900 text-center mb-12 font-semibold section__font__family">
           One stop solutions for your cooking habit
         </h3>
       </div>
@@ -41,7 +41,7 @@ function Solutions() {
             <img className="py-2" src={search} alt="" />
           </div>
           <h3 className="font-semibold text-3xl mb-8">Find Recipes</h3>
-          <p className="text-base leading-6 font-normal ">
+          <p className="text-base leading-6 font-normal section__font__family">
             Discover custom recipes for your home kitchen or batch formulas for
             restaurants and commercial kitchens.
           </p>
@@ -53,7 +53,7 @@ function Solutions() {
             <img className="py-2" src={share} alt="" />
           </div>
           <h3 className="font-semibold text-3xl mb-8">share Recipes</h3>
-          <p className="text-base leading-6 font-normal ">
+          <p className="text-base leading-6 font-normal section__font__family">
             Discover custom recipes for your home kitchen or batch formulas for
             restaurants and commercial kitchens.
           </p>
@@ -87,14 +87,14 @@ function Solutions() {
             </div>
           </div>
         </div>
-        {/* ----------------- section col 1------------------------------------- */}
+        {/* ----------------- section col 6------------------------------------- */}
 
         <div className="grid-cols-6 py-16">
           <div>
             <img className="py-2" src={pen} alt="" />
           </div>
           <h3 className="font-semibold text-3xl mb-8">make Recipes</h3>
-          <p className="text-base leading-6 font-normal ">
+          <p className="text-base leading-6 font-normal section__font__family">
             Discover custom recipes for your home kitchen or batch formulas for
             restaurants and commercial kitchens.
           </p>

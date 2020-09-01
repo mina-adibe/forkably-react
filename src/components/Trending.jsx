@@ -27,10 +27,10 @@ function Trending() {
                 <img src={date1} alt="" />
               </div>
               <div className="mt-4 ml-4 w-4/5">
-                <h3 className="pb-4 leading-tight font-bold text-sm">
+                <h3 className="pb-4 leading-tight font-bold text-sm section__font__family">
                   Top 5 Tips to Become Master Chef
                 </h3>
-                <p className="pb-4  leading-tight text-sm">
+                <p className="pb-4  leading-tight text-sm section__font__family">
                   culinarynewsworld.com
                 </p>
               </div>
@@ -46,10 +46,10 @@ function Trending() {
                 <img src={date2} alt="" />
               </div>
               <div className="mt-4 ml-4 w-4/5">
-                <h3 className="pb-4 leading-tight font-bold text-sm">
+                <h3 className="pb-4 leading-tight font-bold text-sm section__font__family">
                   Top 5 Tips to Become Master Chef
                 </h3>
-                <p className="pb-4  leading-tight text-sm">
+                <p className="pb-4  leading-tight text-sm section__font__family">
                   culinarynewsworld.com
                 </p>
               </div>
@@ -66,10 +66,10 @@ function Trending() {
                 <img src={date3} alt="" />
               </div>
               <div className="mt-4 ml-4 w-4/5">
-                <h3 className="pb-4 leading-tight font-bold text-sm">
+                <h3 className="pb-4 leading-tight font-bold text-sm section__font__family">
                   Top 5 Tips to Become Master Chef
                 </h3>
-                <p className="pb-4  leading-tight text-sm">
+                <p className="pb-4  leading-tight text-sm section__font__family">
                   culinarynewsworld.com
                 </p>
               </div>
