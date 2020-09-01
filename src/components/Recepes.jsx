@@ -8,7 +8,7 @@ function Recepes() {
     <section>
       <div>
         {/* first section  */}
-        <div className="w-8/12 mx-auto ">
+        <div className="max-w-8/12 mx-auto ">
           <div className="text-center w-1/2 mx-auto my-20 ">
             <h1 className="mb-10 text-3xl text-gray-900 text-center  font-semibold">
               Figure out what is in your food!
@@ -40,13 +40,14 @@ function Recepes() {
 
         {/* third section  */}
 
-        <div className="grid  grid-cols-2 grid-rows-1 w-8/12 mx-auto ">
-          <div className="grid-cols-1 -mt-12">
+        <div className="grid  md:grid-cols-2 md:grid-rows-1 w-8/12 mx-auto  grid-cols-1  grid-rows-1">
+          <div className="grid-cols-1 -mt-12 pr-8 md:grid hidden">
             <img src={person} alt="" />
           </div>
+
           <div className="grid-cols-2 flex  ">
             <div className=" flex flex-col my-auto">
-              <div className="mb-8">
+              <div className="m-8">
                 <img src={quote} alt="" />
               </div>
               <h3 className="text-lg leading-6 italic text-gray-900 mb-4">

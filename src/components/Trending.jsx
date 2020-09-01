@@ -16,13 +16,13 @@ function Trending() {
           </h3>
         </div>
 
-        <div className="grid grid-cols-3 grid-rows-1  gap-x-8   pt-12">
+        <div className="grid md:grid-cols-3 md:grid-rows-1  gap-x-8  gap-y-8 pt-12 grid-cols-1 grid-rows-3">
           {/* -------------------- section 1 ------------------------------------------------------------ */}
           <div className="grid-cols-1   relative z-0 ">
             <div>
               <img className="w-full h-full rounded-lg" src={img1} alt="" />
             </div>
-            <div className="flex flex-col justify-between text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
+            <div className="flex flex-col justify-between rounded-lg text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
               <div className="mt-4 ml-4">
                 <img src={date1} alt="" />
               </div>
@@ -41,7 +41,7 @@ function Trending() {
             <div>
               <img className="w-full h-full rounded-lg" src={img2} alt="" />
             </div>
-            <div className="flex flex-col justify-between text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
+            <div className="flex flex-col justify-between rounded-lg text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
               <div className="mt-4 ml-4">
                 <img src={date2} alt="" />
               </div>
@@ -61,7 +61,7 @@ function Trending() {
             <div>
               <img className="w-full h-full rounded-lg" src={img3} alt="" />
             </div>
-            <div className="flex flex-col justify-between text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
+            <div className="flex flex-col justify-between rounded-lg text-white bg-gradient-to-t from-gray-800 absolute top-0 left-0 right-0  z-50  h-full">
               <div className="mt-4 ml-4">
                 <img src={date3} alt="" />
               </div>
