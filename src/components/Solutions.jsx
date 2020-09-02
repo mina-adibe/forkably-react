@@ -5,6 +5,9 @@ import pen from "../images/icon-pen.png";
 import solutionImg1 from "../images/solution-section-a.jpg";
 import solutionImg2 from "../images/solution-section-b.jpg";
 import solutionImg3 from "../images/solution-section-c.jpg";
+import line1 from "../images/line-1.png";
+import line2 from "../images/line-2.png";
+import line3 from "../images/line-3.png";
 
 function Solutions() {
   return (
